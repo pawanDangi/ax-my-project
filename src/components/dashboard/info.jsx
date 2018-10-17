@@ -31,79 +31,79 @@ class Info extends Component {
     return (
       <div className={classes.root}>
         <Grid container={true} spacing={0}>
-          <Grid item md={true} xs={2}>
+          <Grid item md={true} sm={2} xs={4}>
             <Paper className={classes.paper}>
               <div className={classes.value}>0</div>
               <div className={classes.title}>Requests</div>
             </Paper>
           </Grid>
-          <Grid item md={true} xs={3}>
+          <Grid item md={true} sm={3} xs={4}>
             <Paper className={classes.paper}>
               <div className={classes.value}>0</div>
               <div className={classes.title}>Opportunities</div>
             </Paper>
           </Grid>
-          <Grid item md={true} xs={2}>
+          <Grid item md={true} sm={2} xs={4}>
             <Paper className={classes.paper}>
               <div className={classes.value}>0</div>
               <div className={classes.title}>Responses</div>
             </Paper>
           </Grid>
-          <Grid item md={true} xs={3}>
+          <Grid item md={true} sm={3} xs={4}>
             <Paper className={classes.paper}>
               <div className={classes.value}>0</div>
               <div className={classes.title}>Response Rate</div>
             </Paper>
           </Grid>
-          <Grid item md={true} xs={2}>
+          <Grid item md={true} sm={2} xs={4}>
             <Paper className={classes.paper}>
               <div className={classes.value}>0</div>
               <div className={classes.title}>Impressions</div>
             </Paper>
           </Grid>
-          <Grid item md={true} xs={3}>
+          <Grid item md={true} sm={3} xs={4}>
             <Paper className={classes.paper}>
               <div className={classes.value}>0</div>
               <div className={classes.title}>Clicks</div>
             </Paper>
           </Grid>
-          <Grid item md={true} xs={3}>
+          <Grid item md={true} sm={3} xs={4}>
             <Paper className={classes.paper}>
               <div className={classes.value}>0</div>
               <div className={classes.title}>CTR</div>
             </Paper>
           </Grid>
-          <Grid item md={true} xs={3}>
+          <Grid item md={true} sm={3} xs={4}>
             <Paper className={classes.paper}>
               <div className={classes.value}>0</div>
               <div className={classes.title}>Gross Revenue</div>
             </Paper>
           </Grid>
-          <Grid item md={true} xs={3}>
+          <Grid item md={true} sm={3} xs={4}>
             <Paper className={classes.paper}>
               <div className={classes.value}>0</div>
               <div className={classes.title}>Gross eCPM</div>
             </Paper>
           </Grid>
-          <Grid item md={true} xs={true}>
+          <Grid item md={true} sm={true} xs={6}>
             <Paper className={classes.paper}>
               <div className={classes.value}>0</div>
               <div className={classes.title}>No Fill Fee</div>
             </Paper>
           </Grid>
-          <Grid item md={true} xs={true}>
+          <Grid item md={true} sm={true} xs={6}>
             <Paper className={classes.paper}>
               <div className={classes.value}>0</div>
               <div className={classes.title}>Platform Fee</div>
             </Paper>
           </Grid>
-          <Grid item md={true} xs={true}>
+          <Grid item md={true} sm={true} xs={6}>
             <Paper className={classes.paper}>
               <div className={classes.value}>0</div>
               <div className={classes.title}>Net Revenue</div>
             </Paper>
           </Grid>
-          <Grid item md={true} xs={true}>
+          <Grid item md={true} sm={true} xs={6}>
             <Paper className={classes.paper}>
               <div className={classes.value}>0</div>
               <div className={classes.title}>Net eCPM</div>

@@ -7,7 +7,6 @@ const styles = {
   link: {
     color: 'white !important',
     letterSpacing: '1px',
-    padding: '15px',
     '&:hover': {
       textDecoration: 'none'
     }

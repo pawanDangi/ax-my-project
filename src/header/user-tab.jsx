@@ -13,6 +13,9 @@ const styles = {
     position: 'absolute',
     right: 0
   },
+  button: {
+    padding: 0
+  }
 };
 
 class UserTab extends React.Component {
@@ -40,6 +43,7 @@ class UserTab extends React.Component {
           aria-haspopup="true"
           onClick={this.handleMenu}
           color="inherit"
+          className={classes.button}
         >
           <AccountCircle />
         </IconButton>

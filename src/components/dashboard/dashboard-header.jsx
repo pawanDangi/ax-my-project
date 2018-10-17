@@ -32,6 +32,11 @@ const styles = theme => ({
   headerRight: {
     textAlign: 'center'
   },
+  updateText: {
+    overflow: 'hidden',
+    whiteSpace: 'nowrap',
+    textOverflow: 'ellipsis'
+  },
   updated: {
     lineHeight: '30px'
   },
@@ -79,13 +84,13 @@ class DashboardHeader extends Component {
             <span className={classes.title}>Dashboard</span>
           </Grid>
           <Grid item lg={4} md={6} sm={12} xs={12} container spacing={0} className={classes.headerRight}>
-            <Grid item md={5} xs={5}>
-              <span className={classes.updated}>Last updated : 26 Minutes ago</span>
+            <Grid item md={5} xs={4} className={classes.updateText}>
+              <span className={classes.updated}>Updated: 26 Minutes ago</span>
             </Grid>
             <Grid item md={1} xs={2}>
               <img className={classes.filterIcon} src="./icons/filter.svg" alt="Filter"></img>
             </Grid>
-            <Grid item md={6} xs={5}>
+            <Grid item md={6} xs={6}>
               <DateRangePicker
                 containerClass={classes.dateRange}
                 startDate={dateRange.start}

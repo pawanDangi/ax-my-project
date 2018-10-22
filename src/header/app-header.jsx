@@ -40,7 +40,8 @@ const styles = theme => ({
     padding: '5px',
     overflow: 'hidden',
     whiteSpace: 'nowrap',
-    textOverflow: 'ellipsis'
+    textOverflow: 'ellipsis',
+    alignItems: 'center'
   },
   [theme.breakpoints.down('md')]: {
     tabs: {

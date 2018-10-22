@@ -1,0 +1,10 @@
+{
+  "pro": {
+    "API_HOST": "http://127.0.0.1:8080",
+    "BASE_URL": "/api/v1"
+  },
+  "dev": {
+    "API_HOST": "http://127.0.0.1:8080",
+    "BASE_URL": "/api/v1"
+  }
+}

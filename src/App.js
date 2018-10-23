@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Routes from './routes';
-import fetchPermission from './api/fetch-permission';
+// import fetchPermission from './api/fetch-permission';
 import getCookies from './get-cookie';
 import { setCookies } from './actions';
 
 class App extends Component {
   state = {
-    loading: true
+    loading: false
   }
   async componentWillMount() {
     const cookies = await getCookies()
@@ -15,8 +15,8 @@ class App extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    const { cookies } = nextProps;
-    fetchPermission((cookies && cookies.epasso) ? cookies.epasso : null);
+    // const { cookies } = nextProps;
+    // fetchPermission((cookies && cookies.epasso) ? cookies.epasso : null);
   }
   render() {
     const { loading } = this.state
